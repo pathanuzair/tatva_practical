@@ -1,0 +1,8 @@
+uuid: 0fc06a20-065d-4771-8ebc-3f256665f5d1
+langcode: en
+status: true
+dependencies: {  }
+name: 'Marital Status'
+vid: marital_status
+description: ''
+weight: 0

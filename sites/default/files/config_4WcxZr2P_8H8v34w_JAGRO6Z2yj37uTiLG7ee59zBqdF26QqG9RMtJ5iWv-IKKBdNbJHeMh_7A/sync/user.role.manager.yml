@@ -1,0 +1,28 @@
+uuid: 5c2b6458-dd82-40d9-a613-cb8beed3037b
+langcode: en
+status: true
+dependencies: {  }
+id: manager
+label: Manager
+weight: 3
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'access user profiles'
+  - 'administer display modes'
+  - 'administer menu'
+  - 'administer node display'
+  - 'administer node fields'
+  - 'administer themes'
+  - 'administer views'
+  - 'create candidate_details content'
+  - 'delete any candidate_details content'
+  - 'delete own candidate_details content'
+  - 'edit any candidate_details content'
+  - 'edit own candidate_details content'
+  - 'revert candidate_details revisions'
+  - 'view candidate_details revisions'
+  - 'view the administration theme'

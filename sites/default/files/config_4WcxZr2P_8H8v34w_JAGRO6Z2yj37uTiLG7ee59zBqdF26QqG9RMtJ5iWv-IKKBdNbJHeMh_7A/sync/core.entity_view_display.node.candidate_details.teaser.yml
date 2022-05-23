@@ -1,0 +1,36 @@
+uuid: a3dff9a1-fcd5-40d9-ba4f-71d3dec8f459
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.candidate_details.field_candidate_photo
+    - field.field.node.candidate_details.field_city
+    - field.field.node.candidate_details.field_country
+    - field.field.node.candidate_details.field_date_of_birth
+    - field.field.node.candidate_details.field_gender
+    - field.field.node.candidate_details.field_language_known
+    - field.field.node.candidate_details.field_marital_status
+    - field.field.node.candidate_details.field_travelled_country_details
+    - node.type.candidate_details
+  module:
+    - user
+id: node.candidate_details.teaser
+targetEntityType: node
+bundle: candidate_details
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_candidate_photo: true
+  field_city: true
+  field_country: true
+  field_date_of_birth: true
+  field_gender: true
+  field_language_known: true
+  field_marital_status: true
+  field_travelled_country_details: true

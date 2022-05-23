@@ -1,0 +1,23 @@
+uuid: abbad862-32d5-4c97-ae7c-7cbd5c40a752
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - node
+id: candidate_url
+label: 'candidate URL'
+type: 'canonical_entities:node'
+pattern: '/candidate/[node:title]'
+selection_criteria:
+  a9be4244-b29b-4328-975c-7c8671162c9e:
+    id: 'entity_bundle:node'
+    bundles:
+      candidate_details: candidate_details
+    negate: false
+    context_mapping:
+      node: node
+    uuid: a9be4244-b29b-4328-975c-7c8671162c9e
+selection_logic: and
+weight: -5
+relationships: {  }

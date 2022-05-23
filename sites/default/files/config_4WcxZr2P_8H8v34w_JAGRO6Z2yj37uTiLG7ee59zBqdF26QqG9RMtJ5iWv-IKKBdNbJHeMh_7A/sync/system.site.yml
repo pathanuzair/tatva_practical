@@ -1,0 +1,14 @@
+uuid: c1d30d24-7a9c-4fd6-9a95-9969405f4c4d
+name: 'Test Tatva'
+mail: site@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node/7
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

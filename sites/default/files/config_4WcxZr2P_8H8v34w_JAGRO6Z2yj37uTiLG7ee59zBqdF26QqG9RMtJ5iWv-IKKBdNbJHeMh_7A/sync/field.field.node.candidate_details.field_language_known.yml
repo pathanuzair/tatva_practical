@@ -1,0 +1,19 @@
+uuid: c9ca0816-9c84-4fee-85b2-becd73b09987
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_language_known
+    - node.type.candidate_details
+id: node.candidate_details.field_language_known
+field_name: field_language_known
+entity_type: node
+bundle: candidate_details
+label: 'Language Known'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

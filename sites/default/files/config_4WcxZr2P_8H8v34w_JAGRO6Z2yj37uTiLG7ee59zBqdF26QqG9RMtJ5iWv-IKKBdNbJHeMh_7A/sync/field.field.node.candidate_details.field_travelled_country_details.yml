@@ -1,0 +1,21 @@
+uuid: 594f681a-a9ea-4e1d-b008-cf13b0d4c513
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_travelled_country_details
+    - node.type.candidate_details
+  module:
+    - text
+id: node.candidate_details.field_travelled_country_details
+field_name: field_travelled_country_details
+entity_type: node
+bundle: candidate_details
+label: 'Travelled Country Details'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,95 @@
+uuid: 62a41b2f-e1cc-4f90-8fd3-631527a1311b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.candidate_details.field_candidate_photo
+    - field.field.node.candidate_details.field_city
+    - field.field.node.candidate_details.field_country
+    - field.field.node.candidate_details.field_date_of_birth
+    - field.field.node.candidate_details.field_gender
+    - field.field.node.candidate_details.field_language_known
+    - field.field.node.candidate_details.field_marital_status
+    - field.field.node.candidate_details.field_travelled_country_details
+    - node.type.candidate_details
+  module:
+    - datetime
+    - image
+    - options
+    - text
+    - user
+id: node.candidate_details.default
+targetEntityType: node
+bundle: candidate_details
+mode: default
+content:
+  field_candidate_photo:
+    weight: 106
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_city:
+    weight: 108
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_country:
+    weight: 109
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_date_of_birth:
+    weight: 103
+    label: above
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_gender:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: list_default
+    region: content
+  field_language_known:
+    weight: 105
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_marital_status:
+    weight: 104
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_travelled_country_details:
+    weight: 107
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

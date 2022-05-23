@@ -1,0 +1,14 @@
+uuid: 6cd5d0e0-584d-441c-b617-4b0c7b27713e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.leader
+  module:
+    - user
+id: user_remove_role_action.leader
+label: 'Remove the Leader role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: leader

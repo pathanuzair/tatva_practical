@@ -1,0 +1,9 @@
+uuid: c6598b56-f9ad-421c-aebd-947bcab91665
+langcode: en
+status: true
+dependencies: {  }
+id: leader
+label: Leader
+weight: 4
+is_admin: null
+permissions: {  }

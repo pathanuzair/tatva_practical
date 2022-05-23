@@ -1,0 +1,38 @@
+uuid: d4a8dd82-7335-4cda-a148-9db55957aa7c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_candidate_photo
+    - node.type.candidate_details
+  module:
+    - image
+id: node.candidate_details.field_candidate_photo
+field_name: field_candidate_photo
+entity_type: node
+bundle: candidate_details
+label: 'Candidate Photo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: false
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image
